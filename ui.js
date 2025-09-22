@@ -192,7 +192,7 @@ function renderDogamSection(cardsToRender, titleText, parentElement, isLifeDogam
 
             if (unlockedCards.has(name)) {
                 const img = document.createElement('img');
-                img.src = `CardImageAssets/${name}.png`;
+                img.src = `CardImageAsset/${name}.png`;
                 img.alt = name;
                 visualDiv.appendChild(img);
 
