@@ -79,7 +79,7 @@ function renderCards(cards, newCardId) {
         cardElement.classList.add('card');
 
         const img = document.createElement('img');
-        img.src = `CardImageAssets/${card.name}.png`;
+        img.src = `CardImageAsset/${card.name}.png`;
         img.alt = card.name;
 
         img.onerror = function() {
